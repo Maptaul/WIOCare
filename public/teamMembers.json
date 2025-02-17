@@ -1,0 +1,43 @@
+[
+        {
+          "name": "Dr. Esther Howard",
+          "specialty": "Ophthalmology",
+          "image": "/src/assets/Doctor/doctor (1).jpg"
+        },
+        {
+          "name": "Dr. Jenny Wilson",
+          "specialty": "Anesthesiology",
+          "image": "/src/assets/Doctor/doctor (1).png"
+        },
+        {
+          "name": "Dr. Kristin Watson",
+          "specialty": "Infectious Disease",
+          "image": "/src/assets/Doctor/doctor (1).webp"
+        },
+        {
+          "name": "Dr. Arlene Mccoy",
+          "specialty": "Cardiology",
+          "image": "/src/assets/Doctor/doctor (2).jpg"
+        },
+        {
+          "name": "Dr. Albert Flores",
+          "specialty": "Orthopedics",
+          "image": "/src/assets/Doctor/doctor (2).webp"
+        },
+        {
+          "name": "Dr. Cameron Williamson",
+          "specialty": "Dermatology",
+          "image": "/src/assets/Doctor/doctor (3).jpg"
+        },
+        {
+          "name": "Dr. Wade Warren",
+          "specialty": "Pediatrics",
+          "image": "/src/assets/Doctor/doctor (4).jpg"
+        },
+        {
+          "name": "Dr. Jane Cooper",
+          "specialty": "Neurology",
+          "image": "/src/assets/Doctor/doctor (5).jpg"
+        }
+      ]
+      

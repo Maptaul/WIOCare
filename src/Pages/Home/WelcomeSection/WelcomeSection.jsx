@@ -50,7 +50,7 @@ const WelcomeSection = () => {
             className="text-center hover:bg-blue-200 hover:rounded-lg py-4 space-y-4"
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.6, delay: index * 0.2 }}
+            transition={{ duration: 0.8, delay: index * 0.2 }}
           >
             {item.icon}
             <h3 className="font-semibold text-xl text-gray-800">

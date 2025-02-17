@@ -4,6 +4,7 @@ import Banner from "./Banner/Banner";
 import Departments from "./Departments/Departments";
 import Services from "./Services/Services";
 import WelcomeSection from "./WelcomeSection/WelcomeSection";
+import Team from "./teamMembers/teamMembers";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <AboutUs />
       <Services />
       <WelcomeSection />
+      <Team/>
     </div>
   );
 };
