@@ -1,17 +1,28 @@
+import { motion } from "framer-motion";
 import React from "react";
 import { FaBalanceScale, FaClipboardList, FaStethoscope } from "react-icons/fa";
 
 const WelcomeSection = () => {
   return (
     <section className="text-center py-16 ">
-      <h1 className="text-4xl font-bold mb-4">
+      <motion.h1
+        className="text-4xl font-bold mb-4"
+        initial={{ opacity: 0, y: -50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+      >
         Welcome to <span className="text-black">WIO</span>
         <span className="text-blue-500">CARE</span>
         <span className="text-orange-500">AGENCY</span>
-      </h1>
-      <p className="text-gray-500 text-2xl mb-10">
+      </motion.h1>
+      <motion.p
+        className="text-gray-500 text-2xl mb-10"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 0.2, duration: 0.5 }}
+      >
         Our medical specialists care about you & your family’s health
-      </p>
+      </motion.p>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {[
@@ -34,9 +45,12 @@ const WelcomeSection = () => {
             title: "Latest Technologies",
           },
         ].map((item, index) => (
-          <div
+          <motion.div
             key={index}
             className="text-center hover:bg-blue-200 hover:rounded-lg py-4 space-y-4"
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.6, delay: index * 0.2 }}
           >
             {item.icon}
             <h3 className="font-semibold text-xl text-gray-800">
@@ -51,7 +65,7 @@ const WelcomeSection = () => {
             <button className="btn btn-outline btn-primary rounded-full px-6 py-2 mt-4">
               LEARN MORE
             </button>
-          </div>
+          </motion.div>
         ))}
       </div>
     </section>
