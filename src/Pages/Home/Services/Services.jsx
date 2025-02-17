@@ -18,9 +18,9 @@ const Services = () => {
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{
-            duration: 0.6,
+            duration: 0.5,
             ease: "easeInOut",
-            delay: 1 * 0.2,
+            delay: 0.3 * 0.2,
           }}
         >
           <div className="flex items-center justify-between mb-4">
@@ -51,9 +51,9 @@ const Services = () => {
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{
-            duration: 0.6,
+            duration: 0.5,
             ease: "easeInOut",
-            delay: 1 * 0.2,
+            delay: 0.3 * 0.2,
           }}
         >
           <div className="flex items-center justify-between mb-4">
@@ -86,9 +86,9 @@ const Services = () => {
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{
-            duration: 0.6,
+            duration: 0.5,
             ease: "easeInOut",
-            delay: 1 * 0.2,
+            delay: 0.3 * 0.2,
           }}
         >
           <div className="flex items-center justify-between mb-4">
