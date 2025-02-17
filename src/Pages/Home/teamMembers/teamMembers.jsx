@@ -7,6 +7,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+import Loading from "../../../Components/Loading";
 
 const Team = () => {
   const [teamMembers, setTeamMembers] = useState([]);
@@ -31,7 +32,7 @@ const Team = () => {
       });
   }, []);
 
-  if (loading) return <p className="text-center text-gray-500">Loading...</p>;
+  if (loading) return <Loading />;
   if (error) return <p className="text-center text-red-500">{error}</p>;
 
   return (
