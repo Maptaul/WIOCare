@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
 import React from "react";
+import { FaHome } from "react-icons/fa";
+import { TbEyeCancel, TbTransactionEuro } from "react-icons/tb";
 
 const Services = () => {
   return (
@@ -10,49 +12,27 @@ const Services = () => {
       <h1 className="text-4xl font-bold mb-6">
         Comprehensive services for your health
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6 rounded-md ">
-        <div className="card bg-base-100 w-96 shadow-xl p-6 rounded-2xl border border-gray-200">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-6 justify-center">
+        <motion.div
+          className="bg-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transition-all"
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{
+            duration: 0.6,
+            ease: "easeInOut",
+            delay: 1 * 0.2,
+          }}
+        >
           <div className="flex items-center justify-between mb-4">
             <div className="flex items-center gap-2">
-              <div className="bg-blue-100 p-2 rounded-full"></div>
-              <h2 className="text-xl font-semibold text-gray-800">Urology</h2>
-            </div>
-            <button className="text-gray-500 hover:text-gray-700">→</button>
-          </div>
-          <p className="text-gray-600 mb-4">
-            Our neurology department provides expert care for conditions
-            affecting the brain, spine, and nervous system.
-          </p>
-          <figure className="rounded-xl overflow-hidden">
-            <img
-              src="/src/assets/docror (1).jpg"
-              alt="Urology"
-              className="w-full h-48 object-cover"
-            />
-          </figure>
-        </div>
-        <div className="card bg-base-100 w-96 shadow-xl p-6 rounded-2xl border border-gray-200">
-          <div className="flex items-center justify-between mb-4">
-            <div className="flex items-center gap-2">
-              <div className="bg-blue-100 p-2 rounded-full">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6 text-blue-600"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M3 7h18M3 12h18M3 17h18"
-                  />
-                </svg>
+              <div className="bg-blue-100 hover:bg-blue-400 p-2 rounded-full">
+                <FaHome className="text-4xl" />
               </div>
-              <h2 className="text-xl font-semibold text-gray-800">Urology</h2>
+              <h2 className="text-4xl font-semibold text-gray-800">Urology</h2>
             </div>
-            <button className="text-gray-500 hover:text-gray-700">→</button>
+            <button className="text-gray-500 text-4xl hover:text-gray-900">
+              →
+            </button>
           </div>
           <p className="text-gray-600 mb-4">
             Our neurology department provides expert care for conditions
@@ -62,45 +42,78 @@ const Services = () => {
             <img
               src="/src/assets/docror (1).jpg"
               alt="Urology"
-              className="w-full h-48 object-cover"
+              className="w-full h-48 "
             />
           </figure>
-        </div>
-        <div className="card bg-base-100 w-96 shadow-xl p-6 rounded-2xl border border-gray-200">
+        </motion.div>
+        <motion.div
+          className="bg-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transition-all"
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{
+            duration: 0.6,
+            ease: "easeInOut",
+            delay: 1 * 0.2,
+          }}
+        >
           <div className="flex items-center justify-between mb-4">
             <div className="flex items-center gap-2">
-              <div className="bg-blue-100 p-2 rounded-full">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6 text-blue-600"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M3 7h18M3 12h18M3 17h18"
-                  />
-                </svg>
+              <div className="bg-blue-100 hover:bg-blue-400 p-2 rounded-full">
+                <TbTransactionEuro className="text-4xl" />
               </div>
-              <h2 className="text-xl font-semibold text-gray-800">Urology</h2>
+              <h2 className="text-4xl font-semibold text-gray-800">
+                Neurology
+              </h2>
             </div>
-            <button className="text-gray-500 hover:text-gray-700">→</button>
+            <button className="text-gray-500 text-4xl hover:text-gray-900">
+              →
+            </button>
           </div>
           <p className="text-gray-600 mb-4">
-            Our neurology department provides expert care for conditions
-            affecting the brain, spine, and nervous system.
+            Special care focuses on providing tailored attention to address
+            unique health needs, ensuring optimal well-being and comfort.
           </p>
           <figure className="rounded-xl overflow-hidden">
             <img
-              src="/src/assets/docror (1).jpg"
+              src="/src/assets/docror (2).jpg"
               alt="Urology"
-              className="w-full h-48 object-cover"
+              className="w-full h-48 "
             />
           </figure>
-        </div>
+        </motion.div>
+        <motion.div
+          className="bg-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transition-all"
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{
+            duration: 0.6,
+            ease: "easeInOut",
+            delay: 1 * 0.2,
+          }}
+        >
+          <div className="flex items-center justify-between mb-4">
+            <div className="flex items-center gap-2">
+              <div className="bg-blue-100 hover:bg-blue-400 p-2 rounded-full">
+                <TbEyeCancel className="text-4xl" />
+              </div>
+              <h2 className="text-4xl font-semibold text-gray-800">Eye Care</h2>
+            </div>
+            <button className="text-gray-500 text-4xl hover:text-gray-900">
+              →
+            </button>
+          </div>
+          <p className="text-gray-600 mb-4">
+            Lab testing is vital for accurately monitoring your health and
+            identifying potential issues early for effective treatment.
+          </p>
+          <figure className="rounded-xl overflow-hidden">
+            <img
+              src="/src/assets/docror (3).jpg"
+              alt="Urology"
+              className="w-full h-48 "
+            />
+          </figure>
+        </motion.div>
       </div>
       <p className="text-gray-700 mb-4">
         From preventive care to specialized treatments, we support your health
