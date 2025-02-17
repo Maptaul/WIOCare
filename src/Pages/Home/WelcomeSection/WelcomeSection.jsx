@@ -34,7 +34,10 @@ const WelcomeSection = () => {
             title: "Latest Technologies",
           },
         ].map((item, index) => (
-          <div key={index} className="text-center space-y-4">
+          <div
+            key={index}
+            className="text-center hover:bg-blue-200 hover:rounded-lg py-4 space-y-4"
+          >
             {item.icon}
             <h3 className="font-semibold text-xl text-gray-800">
               {item.title}
