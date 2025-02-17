@@ -4,22 +4,18 @@ const ErrorPage = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-[#2E2E2E] text-white">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-[#daecfe] ">
       <div className="text-center">
-        <h1 className="text-7xl font-bold text-blue-500">404</h1>
+        <h1 className="text-9xl font-bold text-blue-500">404</h1>
         <p className="mt-4 text-2xl font-semibold">Oops! Page Not Found</p>
-        <p className="mt-2 text-gray-400">
+        <p className="mt-2 text-xl text-gray-700">
           The page you are looking for does not exist or has been moved.
         </p>
+        <h1 className="text-4xl font-semibold mt-4">
+          We are updating soon, stay with us... thank you 😊
+        </h1>
       </div>
       <div className="mt-8">
-        <div className=" justify-center items-center">
-          <img
-            className="w-[500px] h-[300px] rounded-lg"
-            src="https://i.ibb.co.com/W32SjWD/image.png"
-            alt=""
-          />
-        </div>
         <div className="items-center justify-center text-center">
           <button
             className="btn btn-primary mt-6 px-6 py-2"
