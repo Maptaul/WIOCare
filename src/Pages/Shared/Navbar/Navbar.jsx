@@ -11,10 +11,10 @@ const Navbar = () => {
         <Link to="/bookAppointment">Book Appointment</Link>
       </li>
       <li>
-        <Link to="/clinic">Hospitals</Link>
+        <Link to="/hospitals">Hospitals</Link>
       </li>
       <li>
-        <Link to="/clinic">Labs</Link>
+        <Link to="/clinic">clinic</Link>
       </li>
     </>
   );
@@ -59,7 +59,6 @@ const Navbar = () => {
         <ul className="menu menu-horizontal px-1 text-2xl">{navOptions}</ul>
       </div>
       <div className="navbar-end gap-2">
-        <a className="btn btn-primary text-xl">Book Appointment</a>
         <a className="btn btn-warning">Login</a>
       </div>
     </div>
