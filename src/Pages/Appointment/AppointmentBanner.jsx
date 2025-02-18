@@ -3,9 +3,9 @@ import { motion } from "framer-motion";
 const AppointmentBanner = () => {
   return (
     <section className="bg-blue-900 text-white py-16 px-4 md:px-8 rounded-3xl flex flex-col md:flex-row items-center relative justify-between">
-      <div className="  md:w-1/2">
+      <div className=" w-9  md:w-1/2">
         <img
-          className="absolute top-[70px] left-0 rounded-3xl w-"
+          className="absolute w-[150px] bottom-0 md:w-fit  md:top-[70px] left-0 rounded-3xl "
           src="/src/assets/Appointment/sdd.png"
           alt=""
         />
@@ -36,7 +36,7 @@ const AppointmentBanner = () => {
         <img
           src="/src/assets/Appointment/appointments.png"
           alt="Doctor"
-          className="w-64 md:w-80 rounded-lg shadow-lg"
+          className="w-48 md:w-80 rounded-lg shadow-lg"
         />
       </motion.div>
     </section>
