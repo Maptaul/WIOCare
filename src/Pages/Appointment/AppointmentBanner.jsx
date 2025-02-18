@@ -1,6 +1,11 @@
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 
 const AppointmentBanner = () => {
+  const navigate = useNavigate();
+  const handleAppointmentClick = () => {
+    navigate("/bookAppointment");
+  };
   return (
     <section className="bg-blue-900 text-white py-16 px-4 md:px-8 rounded-3xl flex flex-col md:flex-row items-center relative justify-between">
       <div className=" w-9  md:w-1/2">
@@ -19,7 +24,10 @@ const AppointmentBanner = () => {
         <h1 className="text-4xl md:text-5xl font-bold mb-6">
           Take the first step to better health
         </h1>
-        <button className="bg-gradient-to-r from-blue-500 to-indigo-500 text-white py-3 px-6 text-lg rounded-full shadow-lg hover:scale-105 transition">
+        <button
+          onClick={handleAppointmentClick}
+          className="bg-gradient-to-r from-blue-500 to-indigo-500 text-white py-3 px-6 text-lg rounded-full shadow-lg hover:scale-105 transition"
+        >
           Book A Appointment Now
         </button>
         <p className="mt-4 text-gray-300 text-sm">

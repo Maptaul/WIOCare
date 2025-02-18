@@ -4,7 +4,7 @@ import React from "react";
 
 const AboutUs = () => {
   return (
-    <section className="grid grid-cols-1 md:grid-cols-2 gap-8 p-10  mt-8">
+    <section className="grid grid-cols-1 md:grid-cols-2 gap-8 p-10 mt-8">
       <div>
         <h4 className="text-primary  text:xl md:text-3xl font-medium flex items-center gap-2">
           <span className="text-42xl">⚕️</span> About Us

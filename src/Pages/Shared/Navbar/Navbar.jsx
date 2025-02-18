@@ -8,7 +8,7 @@ const Navbar = () => {
         <Link to="/">Home</Link>
       </li>
       <li>
-        <Link to="/doctors">Doctors</Link>
+        <Link to="/bookAppointment">Book Appointment</Link>
       </li>
       <li>
         <Link to="/clinic">Hospitals</Link>
@@ -19,7 +19,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="navbar w-11/12 mx-auto bg-opacity-30 bg-white text-black">
+    <div className="navbar sticky z-0 w-11/12 mx-auto bg-opacity-30  text-black">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
