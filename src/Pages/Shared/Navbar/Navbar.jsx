@@ -1,20 +1,31 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const navOptions = (
     <>
       <li>
-        <Link to="/">Home</Link>
+        <NavLink to="/" exact activeClassName="text-blue-500 font-bold">
+          Home
+        </NavLink>
       </li>
       <li>
-        <Link to="/bookAppointment">Book Appointment</Link>
+        <NavLink
+          to="/bookAppointment"
+          activeClassName="text-blue-500 font-bold"
+        >
+          Book Appointment
+        </NavLink>
       </li>
       <li>
-        <Link to="/hospitals">Hospitals</Link>
+        <NavLink to="/hospitals" activeClassName="text-blue-500 font-bold">
+          Hospitals
+        </NavLink>
       </li>
       <li>
-        <Link to="/clinic">clinic</Link>
+        <NavLink to="/clinic" activeClassName="text-blue-500 font-bold">
+          Clinic
+        </NavLink>
       </li>
     </>
   );
@@ -56,7 +67,7 @@ const Navbar = () => {
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1 text-2xl">{navOptions}</ul>
+        <ul className="menu menu-horizontal px-1 text-xl">{navOptions}</ul>
       </div>
       <div className="navbar-end gap-2">
         <a className="btn btn-warning">Login</a>
