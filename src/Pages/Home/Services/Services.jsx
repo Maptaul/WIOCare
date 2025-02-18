@@ -25,7 +25,7 @@ const Services = () => {
         >
           <div className="flex items-center justify-between mb-4">
             <div className="flex items-center gap-2">
-              <div className="bg-blue-100 hover:bg-blue-400 p-2 rounded-full">
+              <div className="bg-blue-600 hover:bg-blue-900 text-white p-4 rounded-full">
                 <FaHome className="text-4xl" />
               </div>
               <h2 className="text-4xl font-semibold text-gray-800">Urology</h2>
@@ -58,7 +58,7 @@ const Services = () => {
         >
           <div className="flex items-center justify-between mb-4">
             <div className="flex items-center gap-2">
-              <div className="bg-blue-100 hover:bg-blue-400 p-2 rounded-full">
+              <div className="bg-blue-600 hover:bg-blue-900 text-white p-4 rounded-full">
                 <TbTransactionEuro className="text-4xl" />
               </div>
               <h2 className="text-4xl font-semibold text-gray-800">
@@ -93,7 +93,7 @@ const Services = () => {
         >
           <div className="flex items-center justify-between mb-4">
             <div className="flex items-center gap-2">
-              <div className="bg-blue-100 hover:bg-blue-400 p-2 rounded-full">
+              <div className="bg-blue-600 hover:bg-blue-900 text-white p-4 rounded-full">
                 <TbEyeCancel className="text-4xl" />
               </div>
               <h2 className="text-4xl font-semibold text-gray-800">Eye Care</h2>
