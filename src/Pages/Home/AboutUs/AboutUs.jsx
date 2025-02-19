@@ -7,7 +7,7 @@ const AboutUs = () => {
     <section className="grid grid-cols-1 md:grid-cols-2 gap-8 p-10 mt-8">
       <div>
         <h4 className="text-primary  text:xl md:text-3xl font-medium flex items-center gap-2">
-          <span className="text-42xl">⚕️</span> About Us
+          <span className="text-42xl">🩺</span> About Us
         </h4>
         <h1 className="text-center md:text-left text-3xl md:text-6xl  font-bold mt-2">
           Professionals dedicated to your health

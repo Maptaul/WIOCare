@@ -45,7 +45,7 @@ const BookAppointment = () => {
               alt=""
             />
             <div>
-              <p className="text-lg md:text-xl font-bold">Opening Hours</p>
+              <p className="text-lg md:text-2xl font-bold">Opening Hours</p>
               <p className="text-md md:text-xl mt-2">
                 Mon - Sat (09:00 - 21:00) <br /> Sunday (Closed)
               </p>
